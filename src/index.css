@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Dobryak";
+  src: local("Dobryak"), url("./fonts/Dobryak.eot") format("eot"),
+    url("./fonts/Dobryak.woff") format("woff"),
+    url("./fonts/Dobryak.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Acrobat";
+  src: local("Acrobat"), url("./fonts/Akrobat-Light.eot") format("eot"),
+    url("./fonts/Akrobat-Light.woff") format("woff"),
+    url("./fonts/Akrobat-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Acrobat";
+  src: local("Acrobat"), url("./fonts/Akrobat-Regular.eot") format("eot"),
+    url("./fonts/Akrobat-Regular.woff") format("woff"),
+    url("./fonts/Akrobat-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Acrobat";
+  src: local("Acrobat"), url("./fonts/Akrobat-Bold.eot") format("eot"),
+    url("./fonts/Akrobat-Bold.woff") format("woff"),
+    url("./fonts/Akrobat-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Acrobat", sans-serif;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}

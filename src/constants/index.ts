@@ -1,0 +1,1 @@
+export { BASE_IMAGE_URL } from "./image-url"
